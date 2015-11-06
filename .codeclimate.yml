@@ -1,7 +1,20 @@
-# Save as .codeclimate.yml (note leading .) in project root directory
 languages:
-  Ruby: true
-
+  PHP: true
+  JavaScript: true
 exclude_paths:
-- "foo/bar.rb"
-- "second_app/*"
+- alice/build/*
+- alice/cli/*
+- alice/dev/*
+- alice/doc/*
+- alice/node_nomdules/*
+- alice/tmp/*
+- "*.md"
+- bob/cli/*
+- bob/data/*
+- bob/docs/*
+- Docker/*
+- jenkins/*
+- library/*
+- local/*
+- tools/*
+- vendor/*
