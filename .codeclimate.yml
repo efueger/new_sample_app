@@ -1,20 +1,10 @@
-languages:
-  PHP: true
-  JavaScript: true
-exclude_paths:
-- "alice/build/*"
-- "alice/cli/*"
-- "alice/dev/*"
-- "alice/doc/*"
-- "alice/node_nomdules/*"
-- "alice/tmp/*"
-- "*.md"
-- "bob/cli/*"
-- "bob/data/*"
-- "bob/docs/*"
-- "Docker/*"
-- "jenkins/*"
-- "library/*"
-- "local/*"
-- "tools/*"
-- "vendor/*"
+engines:
+  rubocop:
+    enabled: true
+  brakemant:
+    enabled: true
+ratings:
+   paths:
+   - app/**
+   - lib/**
+   - "**.rb"
