@@ -1,1 +1,2 @@
-path: first_app/
+:path:
+ - first_app/
