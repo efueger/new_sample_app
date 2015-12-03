@@ -3,6 +3,7 @@ engines:
     enabled: true
   brakeman:
     enabled: true
+      config: config/brakeman.yml
 ratings:
    paths:
    - app/**
