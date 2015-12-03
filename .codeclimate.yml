@@ -3,6 +3,8 @@ engines:
     enabled: true
   brakeman:
     enabled: true
+      config:
+        path: first_app/
 ratings:
    paths:
    - app/**
